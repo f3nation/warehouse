@@ -1,36 +1,46 @@
-<html>
-<head>
-<style type=“text/css”>
-.frame {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	opacity: 1;
-	display: block;
-	width: 99.5%;
-	height: 100%;
-</style>
-<script type="text/javascript">
-if (/MSIE 10/i.test(navigator.userAgent)) {
-   // This is internet explorer 10
-    window.location = "https://coda.io/@csd/data-warehouse";
-}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>F3 Data Warehouse</title>
+			<style type=“text/css”>
+			.frame {
+				    position: fixed;
+					top: 0px;
+					bottom: 0px;
+					right: 0px;
+					width: 100%;
+					border: none;
+					margin: 0;
+					padding: 0;
+					overflow: hidden;
+					z-index: 999999;
+					height: 100%;
+				}
+			</style>
+				<script type="text/javascript">
+				if (/MSIE 10/i.test(navigator.userAgent)) {
+				   // This is internet explorer 10
+					window.location = "https://coda.io/@csd/data-warehouse";
+				}
 
-if (/MSIE 9/i.test(navigator.userAgent) || /rv:11.0/i.test(navigator.userAgent)) {
-    // This is internet explorer 9 or 11
-    window.location = "https://coda.io/@csd/data-warehouse";
-}
+				if (/MSIE 9/i.test(navigator.userAgent) || /rv:11.0/i.test(navigator.userAgent)) {
+					// This is internet explorer 9 or 11
+					window.location = "https://coda.io/@csd/data-warehouse";
+				}
 
-if (/Edge\/\d./i.test(navigator.userAgent)){
-   // This is Microsoft Edge
-    window.location = "https://coda.io/@csd/data-warehouse";
-}
-else
-{
-// Not EI or Edge, do nothing
-}
-</script>
-</head>
-<body><p><iframe allow="fullscreen" class="frame" src="https://coda.io/embed/4DTKpSTym_/_su4ib?viewMode=embedplay&amp;hideSections=true" style="margin-top:-90px;"></iframe></p></body></html>
+				if (/Edge\/\d./i.test(navigator.userAgent)){
+				   // This is Microsoft Edge
+					window.location = "https://coda.io/@csd/data-warehouse";
+				}
+				else
+				{
+				// Not EI or Edge, do nothing
+				}
+				</script>
+	</head>
+<body>
+	<p>
+		<iframe allow="fullscreen" class="frame" src="https://coda.io/embed/4DTKpSTym_/_su4ib?viewMode=embedplay&amp;hideSections=true"></iframe>
+	</p>
+</body>
+</html>
